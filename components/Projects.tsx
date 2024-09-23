@@ -14,8 +14,8 @@ const projectsData: Project[] = [
         title: "Portfolio",
         description:
             "A Portfolio which is minimal with all the necessary things.",
-        link: "https://form-vibe.vercel.app/",
-        code: "https://github.com/thisisrit/Portfolio",
+        link: "portfolio-ritrai.vercel.app/",
+        code: "https://github.com/thisisrit/Portfolio/",
         previewVideo: "/videos/PortfolioPreview.mp4",
         technologies: [
             "Next.js",
