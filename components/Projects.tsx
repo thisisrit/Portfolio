@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 interface Project {
@@ -47,8 +48,12 @@ const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex gap-2 mt-auto">
-                                <Button variant="default">View</Button>
-                                <Button variant="outline">Code</Button>
+                                <Link href={item.link}>
+                                    <Button variant="default">View</Button>
+                                </Link>
+                                <Link href={item.code}>
+                                    <Button variant="outline">Code</Button>
+                                </Link>
                             </div>
                         </div>
                     </div>
