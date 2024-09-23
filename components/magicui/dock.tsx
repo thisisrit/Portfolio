@@ -78,18 +78,18 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
 Dock.displayName = "Dock";
 
 export interface DockIconProps {
-  size?: number;
+  // size?: number;
   magnification?: number;
   distance?: number;
-  mouseX?: any;
-  mouseY?: any;
+  mouseX?: number;
+  mouseY?: number;
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
 }
 
 const DockIcon = ({
-  size,
+  // size,
   magnification = DEFAULT_MAGNIFICATION,
   distance = DEFAULT_DISTANCE,
   mouseX,
