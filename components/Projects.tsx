@@ -15,7 +15,7 @@ const projectsData: Project[] = [
         title: "Portfolio",
         description:
             "A Portfolio which is minimal with all the necessary things.",
-        link: "portfolio-ritrai.vercel.app/",
+        link: "/",
         code: "https://github.com/thisisrit/Portfolio/",
         previewVideo: "/videos/PortfolioPreview.mp4",
         technologies: [
