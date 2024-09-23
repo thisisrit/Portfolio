@@ -1,4 +1,4 @@
-import { li } from "framer-motion/client";
+// import { li } from "framer-motion/client";
 
 interface WorkExperienceItem {
     startDate: string,
