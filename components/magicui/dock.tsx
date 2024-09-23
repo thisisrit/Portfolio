@@ -39,7 +39,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     const mouseY = useMotionValue(Infinity);
 
     const renderChildren = () => {
-      return React.Children.map(children, (child: unknown) => {
+      return React.Children.map(children, (child: any) => {
         return React.cloneElement(child, {
           mouseX: mouseX,
           mouseY: mouseY,
@@ -81,8 +81,8 @@ export interface DockIconProps {
   // size?: number;
   magnification?: number;
   distance?: number;
-  mouseX?: unknown;
-  mouseY?: unknown;
+  mouseX?: any;
+  mouseY?: any;
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
