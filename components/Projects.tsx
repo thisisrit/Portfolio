@@ -15,13 +15,11 @@ const projectsData: Project[] = [
         description:
             "A Portfolio which is minimal with all the necessary things.",
         link: "https://form-vibe.vercel.app/",
-        code: "https://github.com/yatharth1706/FormVibe",
+        code: "https://github.com/thisisrit/Portfolio",
         previewVideo: "/videos/PortfolioPreview.mp4",
         technologies: [
             "Next.js",
             "React",
-            "Appwrite",
-            "TypeScript",
             "Tailwind CSS",
         ],
     },

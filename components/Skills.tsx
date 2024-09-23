@@ -6,7 +6,10 @@ const skillsData: string[] = [
     "Core Java",
     "Python",
     "Django",
-    "Networking Concepts"
+    "Networking Concepts",
+    "ReactJS",
+    "NextJS",
+    "TailWind CSS"
 ];
 
 const Skills = () => {
