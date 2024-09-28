@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ContactMe = () => {
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 pb-10">
             <h1 className="text-2xl font-bold">Contact Me</h1>
             <p className="text-base text-gray-700 dark:text-gray-300">
                 Email me at {" "}
